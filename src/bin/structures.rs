@@ -1,3 +1,5 @@
+#![allow(dead_code)] // this line prevents compiler warnings
+
 struct SeaCreature {
     // String is a struct
     animal_type: String,
