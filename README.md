@@ -37,6 +37,19 @@ Each concept is a separate binary in `src/bin/`:
 - `graceful_error_handling.rs` - Using ? operator for error propagation
 - `unwrap.rs` - Using unwrap (panics on error)
 - `vectors.rs` - Working with Vec<T>
+- `ownership.rs` - Basic ownership concepts
+- `moving_ownership.rs` - Moving ownership to functions
+- `returning_ownership.rs` - Returning ownership from functions
+- `borrowing_ownership_with_references.rs` - Borrowing with references
+- `borrowing_mutable_ownership_with_references.rs` - Mutable borrowing
+- `passing_around_borrowed_data.rs` - Modifying borrowed data
+- `dereferencing.rs` - Using dereference operator
+- `scope-based_resource_management.rs` - Scope-based cleanup
+- `dropping_is_hierarchical.rs` - Hierarchical dropping
+- `static_lifetimes.rs` - Static lifetime and variables
+- `explicit_lifetimes.rs` - Explicit lifetime annotations
+- `multiple_lifetimes.rs` - Multiple lifetime parameters
+- `references_of_references.rs` - References to references
 
 ## Running examples
 
@@ -73,4 +86,17 @@ cargo run --bin failable_main
 cargo run --bin graceful_error_handling
 cargo run --bin unwrap
 cargo run --bin vectors
+cargo run --bin ownership
+cargo run --bin moving_ownership
+cargo run --bin returning_ownership
+cargo run --bin borrowing_ownership_with_references
+cargo run --bin borrowing_mutable_ownership_with_references
+cargo run --bin passing_around_borrowed_data
+cargo run --bin dereferencing
+cargo run --bin scope-based_resource_management
+cargo run --bin dropping_is_hierarchical
+cargo run --bin static_lifetimes
+cargo run --bin explicit_lifetimes
+cargo run --bin multiple_lifetimes
+cargo run --bin references_of_references
 ```
