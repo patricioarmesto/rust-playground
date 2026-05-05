@@ -23,6 +23,7 @@ Each concept is a separate binary in `src/bin/`:
 - `return_values_from_loop.rs` - Breaking with values from loops
 - `returning_values_from_block_expressions.rs` - Returning values from blocks, if, and match
 - `structures.rs` - Defining and using structs
+- `calling_methods.rs` - Calling static methods and instance methods
 
 ## Running examples
 
@@ -45,4 +46,5 @@ cargo run --bin match
 cargo run --bin return_values_from_loop
 cargo run --bin returning_values_from_block_expressions
 cargo run --bin structures
+cargo run --bin calling_methods
 ```
