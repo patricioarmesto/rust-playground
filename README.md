@@ -24,6 +24,14 @@ Each concept is a separate binary in `src/bin/`:
 - `returning_values_from_block_expressions.rs` - Returning values from blocks, if, and match
 - `structures.rs` - Defining and using structs
 - `calling_methods.rs` - Calling static methods and instance methods
+- `creating_data_in_memory.rs` - Stack vs heap data in structs
+- `enumerations.rs` - Basic enums and pattern matching
+- `enumerations_with_data.rs` - Enums with associated data
+- `generic_types.rs` - Generic type parameters
+- `option.rs` - Using Option type with generics
+- `representing_nothing.rs` - Custom enum for representing nothing
+- `tuple-like_structs.rs` - Tuple structs
+- `unit-like_structs.rs` - Unit-like structs
 
 ## Running examples
 
@@ -47,4 +55,12 @@ cargo run --bin return_values_from_loop
 cargo run --bin returning_values_from_block_expressions
 cargo run --bin structures
 cargo run --bin calling_methods
+cargo run --bin creating_data_in_memory
+cargo run --bin enumerations
+cargo run --bin enumerations_with_data
+cargo run --bin generic_types
+cargo run --bin option
+cargo run --bin representing_nothing
+cargo run --bin tuple-like_structs
+cargo run --bin unit-like_structs
 ```
