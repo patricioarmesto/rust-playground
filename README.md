@@ -32,6 +32,11 @@ Each concept is a separate binary in `src/bin/`:
 - `representing_nothing.rs` - Custom enum for representing nothing
 - `tuple-like_structs.rs` - Tuple structs
 - `unit-like_structs.rs` - Unit-like structs
+- `result.rs` - Using Result for error handling
+- `failable_main.rs` - Main function that can return errors
+- `graceful_error_handling.rs` - Using ? operator for error propagation
+- `unwrap.rs` - Using unwrap (panics on error)
+- `vectors.rs` - Working with Vec<T>
 
 ## Running examples
 
@@ -63,4 +68,9 @@ cargo run --bin option
 cargo run --bin representing_nothing
 cargo run --bin tuple-like_structs
 cargo run --bin unit-like_structs
+cargo run --bin result
+cargo run --bin failable_main
+cargo run --bin graceful_error_handling
+cargo run --bin unwrap
+cargo run --bin vectors
 ```
