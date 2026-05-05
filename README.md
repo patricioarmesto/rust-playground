@@ -18,6 +18,9 @@ Each concept is a separate binary in `src/bin/`:
 - `loop.rs` - Infinite loops with break
 - `while.rs` - While loops
 - `returning_nothing.rs` - Functions returning unit type ()
+- `for.rs` - For loops with ranges
+- `match.rs` - Pattern matching with match
+- `return_values_from_loop.rs` - Breaking with values from loops
 
 ## Running examples
 
@@ -35,4 +38,7 @@ cargo run --bin if_else
 cargo run --bin loop
 cargo run --bin while
 cargo run --bin returning_nothing
+cargo run --bin for
+cargo run --bin match
+cargo run --bin return_values_from_loop
 ```
