@@ -9,6 +9,8 @@ Each concept is a separate binary in `src/bin/`:
 - `variables.rs` - Variable declarations and types
 - `basic_type_convertion.rs` - Basic type conversion
 - `constants.rs` - Constants in Rust
+- `arrays.rs` - Arrays and type annotations
+- `functions.rs` - Functions with explicit and implicit returns
 
 ## Running examples
 
@@ -17,4 +19,6 @@ cargo run --bin hello
 cargo run --bin variables
 cargo run --bin basic_type_convertion
 cargo run --bin constants
+cargo run --bin arrays
+cargo run --bin functions
 ```
