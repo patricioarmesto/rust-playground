@@ -11,6 +11,7 @@ Each concept is a separate binary in `src/bin/`:
 - `constants.rs` - Constants in Rust
 - `arrays.rs` - Arrays and type annotations
 - `functions.rs` - Functions with explicit and implicit returns
+- `multiple_return_values.rs` - Returning tuples from functions
 
 ## Running examples
 
@@ -21,4 +22,5 @@ cargo run --bin basic_type_convertion
 cargo run --bin constants
 cargo run --bin arrays
 cargo run --bin functions
+cargo run --bin multiple_return_values
 ```
