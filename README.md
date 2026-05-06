@@ -50,6 +50,7 @@ Each concept is a separate binary in `src/bin/`:
 - `explicit_lifetimes.rs` - Explicit lifetime annotations
 - `multiple_lifetimes.rs` - Multiple lifetime parameters
 - `references_of_references.rs` - References to references
+- `lifetimes_in_data_types.rs` - Using lifetimes in struct definitions
 
 ## Running examples
 
@@ -99,4 +100,5 @@ cargo run --bin static_lifetimes
 cargo run --bin explicit_lifetimes
 cargo run --bin multiple_lifetimes
 cargo run --bin references_of_references
+cargo run --bin lifetimes_in_data_types
 ```

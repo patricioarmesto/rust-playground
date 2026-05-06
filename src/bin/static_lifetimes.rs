@@ -1,3 +1,4 @@
+#![allow(static_mut_refs)]
 static PI: f64 = 3.1415;
 
 fn main() {
@@ -15,5 +16,4 @@ fn main() {
         SECRET = "abracadabra";
         println!("{}", SECRET);
     }
-}
 }
