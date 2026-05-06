@@ -13,3 +13,11 @@ version = "0.1.0"
 [[package]]
 name = "tour_of_rust_chapter3"
 version = "0.1.0"
+
+[[package]]
+name = "tour_of_rust_chapter4"
+version = "0.1.0"
+
+[[package]]
+name = "tour_of_rust_chapter5"
+version = "0.1.0"
